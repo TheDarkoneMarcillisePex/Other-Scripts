@@ -2,72 +2,47 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("The Darkones Scripts", "DarkTheme")
 local Abilities = Window:NewTab("GUIS")
 local AbilitiesSection = Abilities:NewSection("GUIS")
-
-
-
-AbilitiesSection:NewButton("Prison Life", "", function()
-
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Prison%20Life%20GUI'))()
-    for i, v in pairs(game.CoreGui:GetDescendants()) do
+local function removeGUI()
+ for i, v in pairs(game.CoreGui:GetDescendants()) do
         if v:IsA("TextLabel") and v.Text == "The Darkones Guis" then
         v.Parent.Parent.Parent:Destroy()
         
         end
         end
+end
+
+AbilitiesSection:NewButton("Prison Life", "", function()
+
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Prison%20Life%20GUI'))()
+   coroutine.wrap(removeGUI)()
 end)
 
 AbilitiesSection:NewButton("Swat VS Criminals", "", function()
 
     loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Swat%20Vs%20Crims%20GUI'))()
-    for i, v in pairs(game.CoreGui:GetDescendants()) do
-        if v:IsA("TextLabel") and v.Text == "The Darkones Guis" then
-        v.Parent.Parent.Parent:Destroy()
-        
-        end
-        end
+  coroutine.wrap(removeGUI)()
 end)
 
 AbilitiesSection:NewButton("Live Topia", "", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Live%20Topia%20GUI'))()
-
-    for i, v in pairs(game.CoreGui:GetDescendants()) do
-        if v:IsA("TextLabel") and v.Text == "The Darkones Guis" then
-        v.Parent.Parent.Parent:Destroy()
-        
-        end
-        end
+coroutine.wrap(removeGUI)()
 end)
 
 AbilitiesSection:NewButton("BrookHaven", "", function()
 
     loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Brook%20Haven%20Gui'))()
-    for i, v in pairs(game.CoreGui:GetDescendants()) do
-        if v:IsA("TextLabel") and v.Text == "The Darkones Guis" then
-        v.Parent.Parent.Parent:Destroy()
-        
-        end
-        end
+ coroutine.wrap(removeGUI)()
 end)
 
 AbilitiesSection:NewButton("Prison Adventure", "", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Prison%20Adventure%20GUI'))()
 
-    for i, v in pairs(game.CoreGui:GetDescendants()) do
-        if v:IsA("TextLabel") and v.Text == "The Darkones Guis" then
-        v.Parent.Parent.Parent:Destroy()
-        
-        end
-        end
+ coroutine.wrap(removeGUI)()
 end)
 
 AbilitiesSection:NewButton("City Life", "", function()
 
     loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/City%20Life%20GUI'))()
-    for i, v in pairs(game.CoreGui:GetDescendants()) do
-        if v:IsA("TextLabel") and v.Text == "The Darkones Guis" then
-        v.Parent.Parent.Parent:Destroy()
-        
-        end
-        end
+   coroutine.wrap(removeGUI)()
 end)
 
