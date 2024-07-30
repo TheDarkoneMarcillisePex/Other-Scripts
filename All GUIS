@@ -46,3 +46,10 @@ AbilitiesSection:NewButton("City Life", "", function()
    coroutine.wrap(removeGUI)()
 end)
 
+
+AbilitiesSection:NewButton("Raise A Family", "", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Raise%20A%20Family%20GUI'))()
+  coroutine.wrap(removeGUI)()   
+end)
+
+
