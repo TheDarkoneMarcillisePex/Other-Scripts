@@ -53,3 +53,8 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcilliseP
 end)
 
 
+AbilitiesSection:NewButton("Blade Ball", "", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/BladeBall%20GUI'))()
+  coroutine.wrap(removeGUI)()   
+end)
+
