@@ -1,0 +1,7 @@
+if game.PlaceId == 2753915549 then --1st
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/Bloxfruits%20Sea%201'))()
+    elseif game.PlaceId == 4442272183 then --2nd
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/Bloxfruits%20sea%202'))()
+    elseif game.PlaceId == 7449423635 then --3rd
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/Bloxfruits%20sea%203'))()
+    end
