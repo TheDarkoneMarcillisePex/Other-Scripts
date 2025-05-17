@@ -1,5 +1,5 @@
 
-if game.PlaceId == 131716211654599 then
+if game.PlaceId == 131716211654599 or game.PlaceId == 16732694052 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/Fisch%201st%20Sea'))()
 else
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/Fisch%202nd%20Sea'))()
