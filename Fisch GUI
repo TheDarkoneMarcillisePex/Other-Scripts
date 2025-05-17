@@ -1,7 +1,6 @@
 
-if game.PlaceId == 72907489978215 then
-loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/Fisch%202nd%20Sea'))()
-
-elseif game.PlaceId == 16732694052 then
+if game.PlaceId == 131716211654599 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/Fisch%201st%20Sea'))()
+else
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/Fisch%202nd%20Sea'))()
 end
