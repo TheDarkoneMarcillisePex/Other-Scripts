@@ -1,4 +1,4 @@
-if game.PlaceId = 129009554587176 then
+if game.PlaceId == 129009554587176 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/The%20Forge%202'))()
 else
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/The%20Forge%201'))()
