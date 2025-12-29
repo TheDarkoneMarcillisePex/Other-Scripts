@@ -1,5 +1,7 @@
 if game.PlaceId == 129009554587176 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/The%20Forge%202'))()
-else
+elseif game.PlaceId == 76558904092080 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/The%20Forge%201'))()
+elseif game.PlaceId == 131884594917121 then
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/The%20Forge%203'))()
 end
