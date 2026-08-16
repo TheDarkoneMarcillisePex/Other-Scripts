@@ -1,0 +1,8 @@
+local id = game.PlaceId 
+if id == 95082159892680 then 
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/Keyboard%20Escape%201'))()
+elseif id == 118941584817777 then
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/Keyboard%20Escape%202'))()
+elseif id == 93411036959889 then
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/Keyboard%20Escape%203'))()
+end
